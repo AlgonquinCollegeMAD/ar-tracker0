@@ -58,6 +58,8 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         card.removeFromParentNode()
         node.addChildNode(card)
         
+        card.isHidden = false
+        
         let videoURL = Bundle.main.url(forResource: "pirate", withExtension: "mp4")!
         let videoPlayer = AVPlayer(url: videoURL)
         
@@ -73,8 +75,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
         guard let video = card.childNode(withName: "video", recursively: true) else { return }
         video.geometry?.firstMaterial?.diffuse.contents = videoScene
-        
-        card.isHidden = false
+
     }
 
     
