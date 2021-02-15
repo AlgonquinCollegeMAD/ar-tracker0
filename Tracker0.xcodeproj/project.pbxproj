@@ -15,6 +15,7 @@
 		102ECAEA25DAD94400574B32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 102ECAE825DAD94400574B32 /* LaunchScreen.storyboard */; };
 		102ECAF525DAD94400574B32 /* Tracker0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102ECAF425DAD94400574B32 /* Tracker0Tests.swift */; };
 		102ECB0025DAD94500574B32 /* Tracker0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102ECAFF25DAD94500574B32 /* Tracker0UITests.swift */; };
+		1099CB7625DAFF76007A132A /* pirate.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1099CB7525DAFF76007A132A /* pirate.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		102ECAFB25DAD94500574B32 /* Tracker0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tracker0UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		102ECAFF25DAD94500574B32 /* Tracker0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tracker0UITests.swift; sourceTree = "<group>"; };
 		102ECB0125DAD94500574B32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1099CB7525DAFF76007A132A /* pirate.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = pirate.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		102ECADC25DAD94300574B32 /* Tracker0 */ = {
 			isa = PBXGroup;
 			children = (
+				1099CB7525DAFF76007A132A /* pirate.mp4 */,
 				102ECADD25DAD94300574B32 /* AppDelegate.swift */,
 				102ECADF25DAD94300574B32 /* art.scnassets */,
 				102ECAE125DAD94300574B32 /* ViewController.swift */,
@@ -235,6 +238,7 @@
 				102ECAEA25DAD94400574B32 /* LaunchScreen.storyboard in Resources */,
 				102ECAE725DAD94400574B32 /* Assets.xcassets in Resources */,
 				102ECAE525DAD94300574B32 /* Main.storyboard in Resources */,
+				1099CB7625DAFF76007A132A /* pirate.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

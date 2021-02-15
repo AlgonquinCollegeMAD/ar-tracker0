@@ -57,6 +57,23 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         guard let card = sceneView.scene.rootNode.childNode(withName: "card", recursively: false) else { return }
         card.removeFromParentNode()
         node.addChildNode(card)
+        
+        let videoURL = Bundle.main.url(forResource: "pirate", withExtension: "mp4")!
+        let videoPlayer = AVPlayer(url: videoURL)
+        
+        let videoScene = SKScene(size: CGSize(width: 720.0, height: 1280.0))
+        
+        let videoNode = SKVideoNode(avPlayer: videoPlayer)
+        videoNode.position = CGPoint(x: videoScene.size.width / 2, y: videoScene.size.height / 2)
+        videoNode.size = videoScene.size
+        videoNode.yScale = -1
+        videoNode.play()
+        
+        videoScene.addChild(videoNode)
+        
+        guard let video = card.childNode(withName: "video", recursively: true) else { return }
+        video.geometry?.firstMaterial?.diffuse.contents = videoScene
+        
         card.isHidden = false
     }
 
