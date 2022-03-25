@@ -37,9 +37,6 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         guard let arReferenceImages = ARReferenceImage.referenceImages(inGroupNamed: "AR Resources", bundle: nil) else { return }
         configuration.trackingImages = arReferenceImages
         sceneView.session.run(configuration)
-
-        // Run the view's session
-        sceneView.session.run(configuration)
     }
     
     override func viewWillDisappear(_ animated: Bool) {
@@ -69,6 +66,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         videoNode.position = CGPoint(x: videoScene.size.width / 2, y: videoScene.size.height / 2)
         videoNode.size = videoScene.size
         videoNode.yScale = -1
+      videoNode.zRotation = 90
         videoNode.play()
         
         videoScene.addChild(videoNode)
@@ -76,21 +74,5 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         guard let video = card.childNode(withName: "video", recursively: true) else { return }
         video.geometry?.firstMaterial?.diffuse.contents = videoScene
 
-    }
-
-    
-    func session(_ session: ARSession, didFailWithError error: Error) {
-        // Present an error message to the user
-        
-    }
-    
-    func sessionWasInterrupted(_ session: ARSession) {
-        // Inform the user that the session has been interrupted, for example, by presenting an overlay
-        
-    }
-    
-    func sessionInterruptionEnded(_ session: ARSession) {
-        // Reset tracking and/or remove existing anchors if consistent tracking is required
-        
     }
 }
