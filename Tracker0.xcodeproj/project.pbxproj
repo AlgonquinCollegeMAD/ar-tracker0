@@ -9,13 +9,10 @@
 /* Begin PBXBuildFile section */
 		102ECADE25DAD94300574B32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102ECADD25DAD94300574B32 /* AppDelegate.swift */; };
 		102ECAE025DAD94300574B32 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 102ECADF25DAD94300574B32 /* art.scnassets */; };
-		102ECAE225DAD94300574B32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102ECAE125DAD94300574B32 /* ViewController.swift */; };
-		102ECAE525DAD94300574B32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 102ECAE325DAD94300574B32 /* Main.storyboard */; };
 		102ECAE725DAD94400574B32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 102ECAE625DAD94400574B32 /* Assets.xcassets */; };
-		102ECAEA25DAD94400574B32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 102ECAE825DAD94400574B32 /* LaunchScreen.storyboard */; };
-		102ECAF525DAD94400574B32 /* Tracker0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102ECAF425DAD94400574B32 /* Tracker0Tests.swift */; };
-		102ECB0025DAD94500574B32 /* Tracker0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102ECAFF25DAD94500574B32 /* Tracker0UITests.swift */; };
-		1099CB7625DAFF76007A132A /* pirate.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1099CB7525DAFF76007A132A /* pirate.mp4 */; };
+		10BDDDBB2B27818C00D85B9D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BDDDBA2B27818C00D85B9D /* ContentView.swift */; };
+		10BDDDBD2B27842C00D85B9D /* CardTrackerScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BDDDBC2B27842C00D85B9D /* CardTrackerScene.swift */; };
+		10BDDDBF2B2787D400D85B9D /* thetruth.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 10BDDDBE2B27873A00D85B9D /* thetruth.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,18 +36,13 @@
 		102ECADA25DAD94300574B32 /* Tracker0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tracker0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		102ECADD25DAD94300574B32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		102ECADF25DAD94300574B32 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
-		102ECAE125DAD94300574B32 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		102ECAE425DAD94300574B32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		102ECAE625DAD94400574B32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		102ECAE925DAD94400574B32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		102ECAEB25DAD94400574B32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		102ECAF025DAD94400574B32 /* Tracker0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tracker0Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		102ECAF425DAD94400574B32 /* Tracker0Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tracker0Tests.swift; sourceTree = "<group>"; };
-		102ECAF625DAD94400574B32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		102ECAFB25DAD94500574B32 /* Tracker0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tracker0UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		102ECAFF25DAD94500574B32 /* Tracker0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tracker0UITests.swift; sourceTree = "<group>"; };
-		102ECB0125DAD94500574B32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1099CB7525DAFF76007A132A /* pirate.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = pirate.mp4; sourceTree = "<group>"; };
+		10BDDDBA2B27818C00D85B9D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		10BDDDBC2B27842C00D85B9D /* CardTrackerScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTrackerScene.swift; sourceTree = "<group>"; };
+		10BDDDBE2B27873A00D85B9D /* thetruth.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = thetruth.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,8 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				102ECADC25DAD94300574B32 /* Tracker0 */,
-				102ECAF325DAD94400574B32 /* Tracker0Tests */,
-				102ECAFE25DAD94500574B32 /* Tracker0UITests */,
 				102ECADB25DAD94300574B32 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,34 +91,15 @@
 		102ECADC25DAD94300574B32 /* Tracker0 */ = {
 			isa = PBXGroup;
 			children = (
-				1099CB7525DAFF76007A132A /* pirate.mp4 */,
 				102ECADD25DAD94300574B32 /* AppDelegate.swift */,
+				10BDDDBA2B27818C00D85B9D /* ContentView.swift */,
+				10BDDDBC2B27842C00D85B9D /* CardTrackerScene.swift */,
+				10BDDDBE2B27873A00D85B9D /* thetruth.mp4 */,
 				102ECADF25DAD94300574B32 /* art.scnassets */,
-				102ECAE125DAD94300574B32 /* ViewController.swift */,
-				102ECAE325DAD94300574B32 /* Main.storyboard */,
 				102ECAE625DAD94400574B32 /* Assets.xcassets */,
-				102ECAE825DAD94400574B32 /* LaunchScreen.storyboard */,
 				102ECAEB25DAD94400574B32 /* Info.plist */,
 			);
 			path = Tracker0;
-			sourceTree = "<group>";
-		};
-		102ECAF325DAD94400574B32 /* Tracker0Tests */ = {
-			isa = PBXGroup;
-			children = (
-				102ECAF425DAD94400574B32 /* Tracker0Tests.swift */,
-				102ECAF625DAD94400574B32 /* Info.plist */,
-			);
-			path = Tracker0Tests;
-			sourceTree = "<group>";
-		};
-		102ECAFE25DAD94500574B32 /* Tracker0UITests */ = {
-			isa = PBXGroup;
-			children = (
-				102ECAFF25DAD94500574B32 /* Tracker0UITests.swift */,
-				102ECB0125DAD94500574B32 /* Info.plist */,
-			);
-			path = Tracker0UITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,10 +206,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				102ECAE025DAD94300574B32 /* art.scnassets in Resources */,
-				102ECAEA25DAD94400574B32 /* LaunchScreen.storyboard in Resources */,
 				102ECAE725DAD94400574B32 /* Assets.xcassets in Resources */,
-				102ECAE525DAD94300574B32 /* Main.storyboard in Resources */,
-				1099CB7625DAFF76007A132A /* pirate.mp4 in Resources */,
+				10BDDDBF2B2787D400D85B9D /* thetruth.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,8 +232,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				102ECAE225DAD94300574B32 /* ViewController.swift in Sources */,
 				102ECADE25DAD94300574B32 /* AppDelegate.swift in Sources */,
+				10BDDDBD2B27842C00D85B9D /* CardTrackerScene.swift in Sources */,
+				10BDDDBB2B27818C00D85B9D /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +242,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				102ECAF525DAD94400574B32 /* Tracker0Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +249,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				102ECB0025DAD94500574B32 /* Tracker0UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,25 +266,6 @@
 			targetProxy = 102ECAFC25DAD94500574B32 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		102ECAE325DAD94300574B32 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				102ECAE425DAD94300574B32 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		102ECAE825DAD94400574B32 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				102ECAE925DAD94400574B32 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		102ECB0225DAD94500574B32 /* Debug */ = {
